@@ -2,6 +2,7 @@
 *{
     margin: 0px;
     padding: 0px;
+   
 }
 
 /* font style */
@@ -33,9 +34,10 @@
     border: none;
 }
 
+
 /* header style */
   header{
-    max-width: 1440px;
+      max-width: 1440px;
     max-height: 698px;
     background-image:  url(../Assets/Hero-bg.png);
     background-repeat: no-repeat;
@@ -47,6 +49,7 @@
   .hero-section{
     padding: 200px 200px ;
     text-align: center;
+    
   }
 
   .hero-section h1{
@@ -72,5 +75,72 @@ nav{
 }
 
 /* nav end */
+
+/* hearder end */
+
+/* action section start */
+
+.action-secton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 160px;
+}
+.acttion-title{
+    font-weight: 700;
+    font-size: 42px;
+    color: #252432;
+    padding-bottom: 10px;
+    
+}
+
+.action-description{
+    font-weight: 400;
+    font-size: 24px;
+    padding: 10px 0px;
+    color: #252432;
+}
+
+.action-img{
+    
+     width: 403px;
+     height: 328px;  
+     border-radius: 48px;
+}
+
+
+/* productive section start */
+
+.productive-section{
+    margin:100px 180px ;
+    background-color:#E5E7FF;
+    border-radius: 10px;
+}
+.productive-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 38px;
+    color: #252432;
+    padding: 30px;
+}
+
+.productive-result{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.productive-result h1{
+    font-weight: 700;
+    font-size: 85px;
+    color: #4E47FF;
+}
+
+.productive-result p{
+font-size: 20px;
+color:#252432 ;
+}
 
 
