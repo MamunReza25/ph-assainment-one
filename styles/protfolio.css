@@ -295,3 +295,41 @@ color:#252432 ;
         
     }
 
+
+    /* footer */
+       
+
+    .footer-container{
+        padding:100px 10px;
+    }
+    .footer-title{
+         font-weight:900;
+         font-size: 100px;
+         color: #4E47FF;
+         text-align: center;
+    }
+
+    .footer-des{
+        color: #8987A1;
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+        margin: 20px 420px;
+    }
+
+    .footer-menubar{
+        margin: 10px 460px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-menubar li{
+        list-style: none;
+    }
+
+    .footer-menubar li a{
+        text-decoration: none;
+        color: #8987A1;
+        font-weight: 500;
+        font-size: 20px;
+    }
